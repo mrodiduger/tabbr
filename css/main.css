@@ -1,0 +1,24 @@
+html {
+    height: 500px;
+    width: 350px;
+    background: #9d9684;
+}
+
+body {
+    height: 450px;
+    width: 315px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 25px;
+    background: #2f2e2b;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.buttons {
+    display: block;
+    float: left;
+}
