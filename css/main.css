@@ -1,15 +1,15 @@
 html {
     height: 500px;
     width: 350px;
-    background: #9d9684;
+    background: #a39778;
 }
 
 body {
-    height: 450px;
+    height: 470px;
     width: 315px;
     border-radius: 25px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 15px;
     background: #2f2e2b;
 }
 
@@ -18,7 +18,93 @@ h1 {
     color: aliceblue;
 }
 
-.buttons {
+
+
+#save {
+	box-shadow:inset 0px 16px 0px 0px #be9f86;
+	background:linear-gradient(to bottom, #e6dd94 5%, #e7b205 100%);
+	background-color:#c08e31;
+	border-radius:15px;
+	border:4px solid #7e6925;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 26px;
+	text-decoration:none;
+	text-shadow:1px 2px 11px #eea507;
     display: block;
-    float: left;
+	float: left;
 }
+#save:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+#save:active {
+	position:relative;
+	top:1px;
+}
+
+#restore {
+    background:linear-gradient(to bottom, #e6dd94 5%, #e7b205 100%);
+	background-color:#c08e31;
+	border-radius:15px;
+	border:4px solid #7e6925;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 26px;
+	text-decoration:none;
+	text-shadow:1px 2px 11px #eea507;
+    display: block;
+	float:right;
+}
+
+#restore:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+#restore:active {
+	position:relative;
+	top:1px;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 422px;
+	border-radius: 25px;
+	background-color: #000000;
+  }
+  
+  .top {
+	float: inline-start;
+    top: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #920b0b;
+  }
+
+  .middle {
+	float:inline-start;
+	width: 100%;
+	height: 310px;
+	background-color: #16bbad;
+
+  }
+  
+  .bottom {
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+    position:relative;
+	vertical-align: bottom;
+    bottom: 0px;
+	background-color: #ffffff;
+	width: 100%;
+	height: 70px;
+  }

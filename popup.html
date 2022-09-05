@@ -3,18 +3,19 @@
   <head>
     <title>Tabbr</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="popup.js"></script>
   </head>
   <body>
     <header>
       <h1>Tabbr</h1>
     </header>
-    <nav>
-      <ul>
-        <li class="buttons"><button id="save">Save Workspace</button></li>
-        <li class="buttons"><button id="restore">Restore Workspace</button></li>
-      </ul>
-    </nav>
-    
+    <div id="container">
+      <div class="top"></div>
+      <div class="middle"></div>
+      <div class="bottom">
+        <button id="save">Save Workspace</button>
+        <button id="restore">Restore Workspace</button>  
+      </div>
+    </div>
   </body>
+  <script src="popup.js"></script>
 </html>
